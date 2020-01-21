@@ -1,0 +1,13 @@
+<h3>Editar Lugar</h3>
+<div class="card">
+    <div class="card-body">
+<form action="/admin/categorias/edit/" method="GET">
+    <label for="nome">Nome do Lugar: </label>
+        <input type="text" id="nome" name="nome" placeholder="Nome da categorias" class="form-control" value="{{categoria.nome}}">
+    <label for="slug">Imagem: </label>
+        <input type="file" name="file" id="file" class="form-control" value="{{categoria.slug}}">
+        <br>
+    <button type="submit" class="btn btn-success ">Editar </button>
+</form> 
+    </div>
+</div>
